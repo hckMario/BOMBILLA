@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombilla</title>
+    <link rel="stylesheet" href="bombilla.css">
+</head>
+<body onload="colocar()">
+    <h1>Bombilla que se enciende y se apaga.</h1>
+    <div id="contenedor">
+        <img id="bombillaEncendida" src="fotos/encendido-1.png" alt="bombilla encendida">
+        <img id="bombillaApagada" src="fotos/apagado-1.png" alt="bombilla apagada">
+    </div> 
+     <div id="uno"  onclick="encender()">
+        <button id="botonEncender"><img src="fotos/off-or.png" alt="encender"></button>
+    </div>
+        <div id="dos"  onclick="apagar()">
+        <button id="botonApagar"><img src="fotos/on-or.png" alt="apagar"></button>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
